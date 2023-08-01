@@ -1,0 +1,25 @@
+:root {
+  --purple--: #8257e6;
+}
+
+
+body{
+    background: #13131F !important;
+}
+
+h1 {
+  color: var(--purple--) !important;
+}
+
+button {
+  border: 1px var(--purple--) solid !important;
+
+}
+
+ul li:focus {
+  border-bottom: 2px var(--purple--) solid !important;
+  border-radius: 0 !important;
+  
+}
+
+
