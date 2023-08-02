@@ -23,14 +23,33 @@ ul li:focus {
   background: var(--purple--) !important;
 }
 
-
-.teste{
+.lorem-text {
   font-size: 24px;
 }
 
+.intro {
+  font-weight: 300;
+}
 
-@media screen and (max-width: 576px)  {
-  .teste {
+/* .left-art {
+  width: 60%;
+  
+}
+
+.right-art {
+  width: 40%;
+  } */
+
+.r1 .r2 {
+  height: 50% !important;
+}
+
+@media screen and (max-width: 576px) {
+  .lorem-text {
     font-size: 16px !important;
+  }
+
+  .intro {
+    font-size: 20px !important;
   }
 }
