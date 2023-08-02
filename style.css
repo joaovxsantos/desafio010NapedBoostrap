@@ -2,9 +2,8 @@
   --purple--: #8257e6;
 }
 
-
-body{
-    background: #13131F !important;
+body {
+  background: #13131f !important;
 }
 
 h1 {
@@ -13,23 +12,25 @@ h1 {
 
 button {
   border: 1px var(--purple--) solid !important;
-
 }
 
 ul li:focus {
   border-bottom: 2px var(--purple--) solid !important;
   border-radius: 0 !important;
-  
 }
 
-
-.lorem{
+.lorem {
   background: var(--purple--) !important;
 }
 
 
-/* .left-art img{
-  height: 500px;
-} */
+.teste{
+  font-size: 24px;
+}
 
 
+@media screen and (max-width: 576px)  {
+  .teste {
+    font-size: 16px !important;
+  }
+}
