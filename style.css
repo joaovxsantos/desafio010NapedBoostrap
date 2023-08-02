@@ -40,9 +40,9 @@ ul li:focus {
   width: 40%;
   } */
 
-.r1 .r2 {
+/* .r1 .r2 {
   height: 50% !important;
-}
+} */
 
 @media screen and (max-width: 576px) {
   .lorem-text {
