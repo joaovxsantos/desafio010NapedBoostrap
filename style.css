@@ -23,3 +23,13 @@ ul li:focus {
 }
 
 
+.lorem{
+  background: var(--purple--) !important;
+}
+
+
+/* .left-art img{
+  height: 500px;
+} */
+
+
