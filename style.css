@@ -31,25 +31,51 @@ ul li:focus {
   font-weight: 300;
 }
 
-/* .left-art {
-  width: 60%;
-  
+main {
+  height: 400px;
 }
 
-.right-art {
-  width: 40%;
-  } */
+.left-div {
+  background-image: url(./images/img1.png);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
 
-/* .r1 .r2 {
-  height: 50% !important;
-} */
+.art1 {
+  background-image: url(./images/02.png);
+  position: relative;
+}
 
-@media screen and (max-width: 576px) {
-  .lorem-text {
-    font-size: 16px !important;
-  }
+.art2 {
+  background-image: url(./images/03.png);
+}
 
-  .intro {
-    font-size: 20px !important;
-  }
+.left-div,
+.art1,
+.art2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+}
+
+.left-div::after,
+.art1::after,
+.art2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.lorem-link {
+  background: var(--purple--) !important;
+}
+
+.art1 > p,
+.art2 > p {
+  font-size: 14px;
 }
