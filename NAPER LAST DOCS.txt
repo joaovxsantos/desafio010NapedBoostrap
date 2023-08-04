@@ -1,2 +1,2 @@
-Não estou conseguindo fazer com quem r1 e r2 ocupem 50% da altura
-na verdade até ocupam, porém tem um espaçamento fantasma entre eles.
+Não consegui estilizar a barra de rolagem
+tirando isso ficou tudo ok.
