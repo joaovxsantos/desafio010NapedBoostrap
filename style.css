@@ -90,12 +90,21 @@ main {
 }
 .lorem-bg {
   background-image: url(./images/16.png);
+  width: 300px;
+  max-width: 50%;
 }
 
 .lorem-bg > a {
   font-size: 13px !important;
 }
 
+.p-hidden {
+  display: none;
+}
+
+.texto > button {
+  background: var(--purple--);
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -121,5 +130,9 @@ main {
 @media screen and (max-width: 576px) {
   .lorem-text {
     font-size: 18px;
+  }
+
+  .p-hidden {
+    display: block;
   }
 }
