@@ -106,6 +106,15 @@ main {
   background: var(--purple--);
 }
 
+section ::-webkit-scrollbar {
+  background: #000000;
+  width: 10px;
+}
+
+section ::-webkit-scrollbar-thumb {
+  background: var(--purple--);
+}
+
 @media screen and (max-width: 1024px) {
   .lorem-text {
     font-size: 24px;
