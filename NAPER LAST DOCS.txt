@@ -1,2 +1,2 @@
-Não consegui estilizar a barra de rolagem
-tirando isso ficou tudo ok.
+O texto dos artigos do scroll em algumas resolução está colado com o scroll. (parcialmente concluido)
+Continuar a parte direita do site
