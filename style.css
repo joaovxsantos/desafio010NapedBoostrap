@@ -106,6 +106,10 @@ main {
   background: var(--purple--);
 }
 
+.info-right{
+  height: 85vh !important;
+}
+
 section ::-webkit-scrollbar {
   background: #000000;
   width: 10px;
