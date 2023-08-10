@@ -106,7 +106,7 @@ main {
   background: var(--purple--);
 }
 
-.info-right{
+.info-right {
   height: 85vh !important;
 }
 
@@ -117,6 +117,12 @@ section ::-webkit-scrollbar {
 
 section ::-webkit-scrollbar-thumb {
   background: var(--purple--);
+}
+
+.topo > div,
+.final > div {
+  /* width: 30% !important; */
+  height: 300px !important;
 }
 
 @media screen and (max-width: 1024px) {
