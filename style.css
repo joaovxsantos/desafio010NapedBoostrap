@@ -125,9 +125,8 @@ section ::-webkit-scrollbar-thumb {
   height: 300px !important;
 }
 
-.color-border{
+.color-border {
   border-bottom: 3px solid var(--purple--);
-  
 }
 
 @media screen and (max-width: 1024px) {
@@ -157,5 +156,12 @@ section ::-webkit-scrollbar-thumb {
 
   .p-hidden {
     display: block;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
   }
 }
