@@ -6,7 +6,8 @@ body {
   background: #13131f !important;
 }
 
-h1 {
+h1,
+footer h2 {
   color: var(--purple--) !important;
 }
 
@@ -121,8 +122,12 @@ section ::-webkit-scrollbar-thumb {
 
 .topo > div,
 .final > div {
-  /* width: 30% !important; */
   height: 300px !important;
+}
+
+.color-border{
+  border-bottom: 3px solid var(--purple--);
+  
 }
 
 @media screen and (max-width: 1024px) {
