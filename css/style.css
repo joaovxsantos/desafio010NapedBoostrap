@@ -158,6 +158,18 @@ section ::-webkit-scrollbar-thumb {
   }
 }
 
+.main{
+  min-height: 160vh;
+}
+
+.op {
+  opacity: 0.7 !important;
+}
+
+/* .img{
+  height:70vh !important;
+} */
+
 @media screen and (max-width: 280px) {
   ul {
     flex-direction: column;

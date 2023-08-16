@@ -1,3 +1,4 @@
 HOME -> Finalizado!
 ERROR-PAGE -> PENDENTE
-ANIME-PAGE -> PENDENTE
+ANIME-PAGE -> Não consegui por a imagem da forma que queria, quando passo na mesma tag do lorem de cima
+fica bugado, e tirei o lorem do main também
