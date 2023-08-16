@@ -37,17 +37,16 @@ main {
 }
 
 .left-div {
-  background-image: url(./images/img1.png);
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-image: url(../images/img1.png);
 }
 
 .art1 {
-  background-image: url(./images/02.png);
+  background-image: url(../images/02.png);
   position: relative;
 }
 
 .art2 {
-  background-image: url(./images/03.png);
+  background-image: url(../images/03.png);
 }
 
 .left-div,
@@ -90,7 +89,7 @@ main {
   overflow-y: scroll;
 }
 .lorem-bg {
-  background-image: url(./images/16.png);
+  background-image: url(../images/16.png);
   width: 300px;
   max-width: 50%;
 }
