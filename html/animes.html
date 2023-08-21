@@ -21,6 +21,10 @@
         rel="stylesheet">
 
 
+    <!--ION ICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
     <title>Naped</title>
 </head>
@@ -33,7 +37,7 @@
             <ul
                 class="d-flex gap-2 flex-md-row justify-content-between justify-content-sm-center  gap-3 gap-sm-4 gap-lg-5 p-0 m-auto col-12 col-sm-4">
                 <li class="list-group-item">
-                    <a class="nav-link" href="">Home</a>
+                    <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="list-group-item">
                     <a class="nav-link" href="">Séries</a>
@@ -53,13 +57,17 @@
     </nav>
 
 
-    <main class="container-lg w-100">
+    <main class="container-lg w-100 d-flex flex-column gap-5">
         <div class="img-div col-12  h-100 d-flex gap-2 flex-column justify-content-center p-1 p-sm-5 position-relative">
             <h1 class="text-white">Animes</h1>
             <p class="fs-4 col-lg-6 text-white">O Naped pode ser sua fonte de informações sobre o mundo nerd e outros
                 assuntos
                 relacionados.</p>
-            <div class="overlay"></div>
         </div>
 
+        <div class="search-div p-2 p-lg-4 d-flex justify-content-between align-items-center">
+            <input class="w-100 h-100 bg-transparent border-0 outline-0 text-white" type="text" name="" id=""
+                placeholder="Quer ajuda na procura? Pesquise aqui">
+            <ion-icon name="search-outline"></ion-icon>
+        </div>
     </main>
