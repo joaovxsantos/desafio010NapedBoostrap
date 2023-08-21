@@ -128,6 +128,14 @@ section ::-webkit-scrollbar-thumb {
   border-bottom: 3px solid var(--purple--);
 }
 
+.image {
+  background-image: url(../images/17.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
 @media screen and (max-width: 1024px) {
   .lorem-text {
     font-size: 24px;
@@ -158,17 +166,13 @@ section ::-webkit-scrollbar-thumb {
   }
 }
 
-.main{
+.main {
   min-height: 160vh;
 }
 
 .op {
   opacity: 0.7 !important;
 }
-
-/* .img{
-  height:70vh !important;
-} */
 
 @media screen and (max-width: 280px) {
   ul {
