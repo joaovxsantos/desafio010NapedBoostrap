@@ -52,7 +52,8 @@ main {
 .left-div,
 .art1,
 .art2,
-.lorem-bg {
+.lorem-bg,
+.img-div {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -134,6 +135,22 @@ section ::-webkit-scrollbar-thumb {
   background-position: center;
   background-size: cover;
   height: 50vh;
+}
+
+.borda {
+  border-bottom: 2px solid var(--purple--) !important;
+}
+
+.img-div {
+  background-image: url(../images/12.png);
+}
+
+.overlay {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
 }
 
 @media screen and (max-width: 1024px) {
