@@ -1,4 +1,4 @@
 HOME -> Finalizado!
 ERROR-PAGE -> PENDENTE
-FILME-PAGE -> Finalizado!
-ANIMES-PAGE -> EM ANDAMENTO...
+FILME-PAGE -> 
+ANIMES-PAGE -> Finalizado!

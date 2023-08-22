@@ -32,10 +32,6 @@ ul li:focus {
   font-weight: 300;
 }
 
-main {
-  height: 400px;
-}
-
 .left-div {
   background-image: url(../images/img1.png);
 }
@@ -147,6 +143,7 @@ section ::-webkit-scrollbar-thumb {
 
 .img-div {
   background-image: url(../images/12.png);
+  min-height: 40vh;
 }
 
 .search-div {
@@ -168,6 +165,10 @@ section ::-webkit-scrollbar-thumb {
   height: 30px;
   color: #fff;
   cursor: pointer;
+}
+
+.info-text {
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -212,5 +213,8 @@ section ::-webkit-scrollbar-thumb {
   ul {
     flex-direction: column;
     align-items: center;
+  }
+  .info-text {
+    font-size: 15px;
   }
 }
