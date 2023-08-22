@@ -99,8 +99,8 @@ ul li:focus {
   display: none;
 }
 
-.texto > button {
-  background: var(--purple--);
+.texto > button, .botao {
+  background: var(--purple--) !important;
 }
 
 .info-right {
